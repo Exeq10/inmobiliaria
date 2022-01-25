@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Venta de inmuebles">
+    <meta name="theme-color" content="#393838">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Inmobiliaria</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="index.html">
+            <div class="logo">
+                <img src="build/img/iconos/logo.png" alt="logo">
+                <h1>Inmobiliaria</h1>
+
+            </div>
+        </a>
+        <button onclick="menu()" class="menuburguer"><img src="/build/img/iconos/barras.svg" alt="menu"></button>
+
+
+
+        <nav class="navegacion nodisplay">
+            <a href="alquiler.html">Alquiler</a>
+            <a href="ventas.html">Venta</a>
+            <a href="publicar.html">Publicar</a>
+            <a href="contactar.html">Contacto</a>
+            <a href="login.html">Login</a>
+
+        </nav>
+    </header>
+
+
+
+    <section class="contenedor">
+
+
+
+        <form action="">
+            <fieldset>
+
+                <legend>Comuniquese con nosotros</legend>
+
+
+                <label for="nombre">Nombre</label>
+                <input class="campo" type="text" placeholder="Nombre" id="nombre" name="nombre" value="">
+
+
+                <label for="apellido">Apellido</label>
+                <input class="campo" type="text" placeholder="Apellido" id="apellido" name="apellido" value="">
+
+                <label for="email">Email</label>
+                <input class="campo" type="email" placeholder="email" id="email" name="email" value="">
+
+                <label for="telefono">Teléfono</label>
+                <input class="campo" type="tel" placeholder="teléfono" id="telefono" name="telefono" value="">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+
+
+                <input type="submit" value="Enviar" class="boton">
+
+
+            </fieldset>
+        </form>
+
+    </section>
+
+
+
+
+    <footer class="footer">
+
+
+
+
+
+
+        </div>
+        <div class="flex">
+            <div class="info-redes">
+                <div class="redes">
+                    <a href="">
+                        <img src="build/img/iconos/ig.webp" alt="ig">
+                    </a>
+                    <a href="">
+                        <img src="build/img/iconos/face.webp" alt="face">
+                    </a>
+                    <a href="">
+                        <img src="build/img/iconos/gmail (2).webp" alt="gmail">
+                    </a>
+
+
+                </div>
+
+            </div>
+
+            <nav class="navegacion nodisplay">
+                <a href="alquiler.html">Alquiler</a>
+                <a href="ventas.html">Venta</a>
+                <a href="publicar.html">Publicar</a>
+                <a href="contactar.html">Contacto</a>
+                <a href="login.html">Login</a>
+
+            </nav>
+        </div>
+    </footer>
+
+    <script src="/build/js/app.js"></script>
+    <script src="build/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
